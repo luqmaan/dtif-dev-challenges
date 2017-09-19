@@ -1,0 +1,5 @@
+./backend/node_modules
+./backend/yarn-error.log
+./frontend/react/node_modules
+./frontend/react/dist
+.DS_Store

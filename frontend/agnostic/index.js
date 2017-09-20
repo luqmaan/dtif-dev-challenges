@@ -16,7 +16,7 @@ $.getJSON( "example.json", function( data ) {
       "<ul>" +
         "<li>" + dog.description_of_dog + "</li>" +
         "<li>" + "Owned by: " + dog.first_name + " " + dog.last_name + "</li>" +
-        "<li>" + "Lives at: " + dog.location_zip + "</li>" +
+        "<li>" + "Lives at: " + dog.location_address + ", " + dog.location_zip + "</li>" +
       "</ul>"
     );
   });

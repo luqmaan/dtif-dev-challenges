@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import data from './example.json';
 
 import axios from 'axios';
 
@@ -24,12 +25,25 @@ class App extends Component {
           <h2>Dangerous Dogs</h2>
         </div>
 
-        <p className="App-intro">
-          {/* TODO: Delete line below */}
-          Open Dev Tools Console to see data.
-          {/* TODO: Display data here, maybe? Be creative! 🎉 */}
-        </p>
+        <div className="App-intro">
+          {/* TODO: Pull in data from API endpoint instead of static json file. */}
+          { data.map((dog, i) => {
+            return (
+              <div style={{ textAlign: 'left', paddingLeft: '40px', marginTop: '40px' }} key={i}>
+                <p>Description: {dog.description_of_dog}</p>
+                <p>Owned by: {dog.first_name} {dog.last_name}</p>
+                <p>Lives at: {dog.location_address}, {dog.location_zip}</p>
+              </div>
+            )
+          }) }
+
+          {/* TODO: Delete block below */}
+          <p style={{ marginTop: '50px', fontStyle: 'italic', color: 'grey' }}>
+            Open Dev Tools Console to see API data.
+          </p>
+        </div>
       </div>
+
     );
   }
 }

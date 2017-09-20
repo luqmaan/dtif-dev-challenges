@@ -1,1 +1,4 @@
-/* TODO: Add some styles. Use a preprocessor like Sass if it helps. */
+.hint-text {
+  font-style: italic;
+  color: gray;
+}

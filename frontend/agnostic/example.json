@@ -1,0 +1,38 @@
+[
+  {
+    ":@computed_region_a3it_2a2z": "3252",
+    "address": "13101 Winding Creek Rd",
+    "description_of_dog": "\"Holly\" Spayed female, white Labrador/Pitbull mix",
+    "first_name": "Jack",
+    "last_name": "Barnett",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -97.992054,
+        30.240521
+      ]
+    },
+    "location_address": "13101 Winding Creek Rd",
+    "location_state": "TX",
+    "location_zip": "78736",
+    "zip_code": "78736"
+  },
+  {
+    ":@computed_region_a3it_2a2z": "8481",
+    "address": "903 Vincent Place ",
+    "description_of_dog": "\"Missy,\" Spayed Female, red/white Pitbull mix",
+    "first_name": "Ruth",
+    "last_name": "Delong-Pyron",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -97.651466,
+        30.443807
+      ]
+    },
+    "location_address": "903 Vincent Place",
+    "location_state": "TX",
+    "location_zip": "78660",
+    "zip_code": "78660"
+  }
+]

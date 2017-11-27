@@ -12,4 +12,4 @@ result = schema.execute('''
 }
 ''')
 
-print result.data
+print(result.data)

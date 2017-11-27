@@ -1,5 +1,7 @@
-./backend/node_modules
-./backend/yarn-error.log
-./frontend/react/node_modules
-./frontend/react/dist
+node_modules
 .DS_Store
+.env
+__pycache__
+.vscode
+./backend/yarn-error.log
+./frontend/react/dist

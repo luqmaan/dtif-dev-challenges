@@ -1,7 +1,0 @@
-{
-  numberRange(end:10)
-  evenNumbers(end:10)
-  primeNumbers(end:10)
-  numberRangeAsWords(end:10)
-  somethingFun
-}

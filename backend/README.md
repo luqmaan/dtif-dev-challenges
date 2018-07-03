@@ -27,14 +27,14 @@ This data is more challenging to query, but if you're enjoying this challenge tr
 - List the routes that stop near a location. Specify the location using `latitude` and `longitude`. You can fetch this data by querying `stops.txt`, `stop_times.txt`, and `trips.txt`.
 - List the next five trips arriving at a particular stop. Specify the `stop_id` and `time`. You can fetch this data by querying `stops.txt`, `stop_times.txt`, and `trips.txt`.
 
-### Resources
+## Resources
 
 - GTFS (General Transit Feed Specification): https://developers.google.com/transit/gtfs/
 - CapMetro Open Data: https://data.texas.gov/capital-metro
 - awesome-transit: https://github.com/CUTR-at-USF/awesome-transit
 - Us. If you are stuck, or need guidance, leave a comment to a line of code in Github or email us.
 
-### Some Hints & Guidelines
+## Some Hints & Guidelines
 
 - Build your API using any frameworks, tools, databases, or libraries you like.
 - Write clean code. Bonus points for tests.

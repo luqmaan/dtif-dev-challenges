@@ -11,9 +11,7 @@
 
 Take an hour or two and play around with the code in this repo. Create something tangible to share with us that demonstrates how you approach ambiguous problems.
 
-- If you applied for the Frontend role, go to [the frontend challenge](./frontend).
-- If you applied for the Backend role, go to [the backend challenge](./backend).
-- If you are Full Stack, take your pick.
+- Check out more info in [the frontend challenge](./frontend).
 
 #### A note on time.
 

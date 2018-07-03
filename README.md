@@ -12,6 +12,7 @@
 Take an hour or two and play around with the code in this repo. Create something tangible to share with us that demonstrates how you approach ambiguous problems.
 
 - Check out more info in [the frontend challenge](./frontend).
+- Check out more info in [the backend challenge](./backend).
 
 #### A note on time.
 

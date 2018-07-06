@@ -20,7 +20,7 @@ Your API must provide a way to fetch the following data:
 
 ### Extra credit
 
-This data is more challenging to query, but if you're enjoying this challenge try one of these:
+This data is more difficult to query, but if you're enjoying this challenge try one of these:
 
 - List the routes that stop near a location. Specify the location using `latitude` and `longitude`. You can fetch this data by querying `stops.txt`, `stop_times.txt`, and `trips.txt`.
 - List the next five trips arriving at a particular stop. Specify the `stop_id` and `time`. You can fetch this data by querying `stops.txt`, `stop_times.txt`, and `trips.txt`.

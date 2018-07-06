@@ -4,13 +4,11 @@ Your task is to create an API that serves Austin transit data. This is an openâ€
 
 To complete this challenge you'll need to learn about [GTFS (General Transit Feed Specification)](https://developers.google.com/transit/gtfs/). A GTFS feed is a group of text files that contains infrequently changing transit data, like stops, routes, trips, and other schedule data. Transit agencies typically update their GTFS feed every few months.
 
-For your convenience, we've checked in a [GTFS feed CapMetro published in June 2018](./gtfs.zip). But, you can use [the latest GTFS feed from CapMetro](https://data.texas.gov/capital-metro) if you prefer.
+For your convenience, we've checked in a [GTFS feed CapMetro published in June 2018](./gtfs-capmetro-june-2018). But, you can use [the latest GTFS feed from CapMetro](https://data.texas.gov/capital-metro) if you prefer.
 
-To get started, you'll need to unzip your gtfs.zip file. Once you do that, you should see a bunch of `.txt` files like `stops.txt` and `routes.txt`.
+Your challenge will be to figure out how to query the `.txt` files in [`gtfs-capmetro-june-2018`](./gtfs-capmetro-june-2018) and then build an API that serves that data.
 
-Your challenge will be to figure out how to query these `.txt` files and then build an API that serves that data.
-
-You should be able to complete this challenge without using any transit specific libraries, but feel free to use one if you'd like. [awesome-transit](https://github.com/CUTR-at-USF/awesome-transit) is a community curated list of tools that can help you understand and work with GTFS data.
+You should be able to complete this challenge without using any transit specific libraries, but feel free to use one if you'd like. [awesome-transit](https://github.com/CUTR-at-USF/awesome-transit) is a community curated list of tools that can help you understand how to work with GTFS data.
 
 ## The API
 
